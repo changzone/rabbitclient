@@ -1,0 +1,11 @@
+{
+    "logfile":"rabbitq.log",
+    "loglevel":"DEBUG",
+    "broker_url":"amqp://user:pwd@place:5672/vm",
+    "queue":"",
+    "exchange_name":"sourcefanout",
+    "exchange_type":"fanout",
+    "routing_key":"10",
+    "frequency":5
+
+}
